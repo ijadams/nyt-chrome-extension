@@ -1,0 +1,18 @@
+{
+  "name": "NYT COOKING PAYWALL EXTENSION",
+  "version": "1.1",
+  "description": "An extension to subvert the nyt cooking paywall.",
+  "permissions": [
+    "bookmarks"
+  ],
+  "content_scripts": [{
+    "matches": ["https://cooking.nytimes.com/recipes/*"],
+    "js": ["jquery-3.2.1.min.js", "popup.js"]
+  }],
+  "browser_action": {
+      "default_title": "NYT COOKING CHROME EXTENSION",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
