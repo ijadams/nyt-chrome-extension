@@ -1,5 +1,5 @@
 
-NYT COOKING PAYWALL EXTENSION
+NYT COOKING EXTENSION
 =======
 
-Chrome extension for getting around nyt cooking paywall
+Chrome extension for seeing nyt recipes without paying
