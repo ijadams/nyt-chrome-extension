@@ -7,6 +7,7 @@
   ],
   "content_scripts": [{
     "matches": ["https://cooking.nytimes.com/recipes/*"],
+    "run_at" : "document_idle",
     "js": ["jquery-3.2.1.min.js", "popup.js"]
   }],
   "browser_action": {
