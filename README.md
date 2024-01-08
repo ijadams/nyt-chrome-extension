@@ -2,4 +2,4 @@
 NYT COOKING EXTENSION
 =======
 
-Chrome extension for seeing nyt recipes without paying
+Chrome extension for seeing nyt recipes :black_hat:
